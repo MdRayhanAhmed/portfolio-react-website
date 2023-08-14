@@ -21,5 +21,15 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "web_accessible_resources": [
+    "public/portfolio/*",
+    "src/assets/images/*",
+    "src/assets/fonts/CoolveticaRg-Regular.woff",
+    "src/assets/fonts/CoolveticaRg-Regular.woff2",
+    "src/assets/fonts/helvetica-neu.ttf",
+    "src/assets/fonts/LaBelleAurore.woff",
+    "src/assets/fonts/LaBelleAurore.woff2"
+    
+  ]
 }
