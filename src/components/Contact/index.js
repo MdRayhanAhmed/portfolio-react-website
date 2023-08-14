@@ -15,10 +15,8 @@ const Contact = () => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
-console.log(process.env.YOUR_SERVICE_ID);
   const sendEmail = (event) => {
     event.preventDefault()
-    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     emailjs
       .sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID,
        form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
