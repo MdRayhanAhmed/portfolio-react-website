@@ -1,0 +1,44 @@
+{
+    "portfolio": [
+        {
+            "image": "/portfolio/tindog.png",
+            "name": "Tindog",
+            "tools": "Using Bootstrap and CSS",
+            "description": "Its looks Like the Tinder website. It is made only for dog lovers.",
+            "url": "https://mdrayhanahmed.github.io/TinDog/",
+            "githubUrl": "https://github.com/mdrayhanahmed/TinDog"
+        },
+        {
+            "image": "/portfolio/drum-kit.png",
+            "name": "Drum Kit",
+            "tools": "Using JavaScript and CSS.",
+            "description": "In this site, you can play a different type of drum kit.",
+            "url": "https://mdrayhanahmed.github.io/Drum-Kit/",
+            "githubUrl": "https://github.com/mdrayhanahmed/Drum-Kit"
+        },
+        {
+            "image": "/portfolio/simon-game.png",
+            "name": "Simon Game",
+            "tools": "Using JQuery, JavaScript, CSS",
+            "description": "It is an electronic game of memory skills.",
+            "url": "https://mdrayhanahmed.github.io/The-Simon-Game/",
+            "githubUrl": "https://github.com/mdrayhanahmed/The-Simon-Game"
+        },
+        {
+            "image": "/portfolio/dice-game.png",
+            "name": "Dice Game",
+            "tools": "Using JavaScript and CSS",
+            "description": "Two Player Plays in this game. Here randomly win anyone or draw a game.",
+            "url": "https://mdrayhanahmed.github.io/Dice-Game/",
+            "githubUrl": "https://github.com/mdrayhanahmed/Dice-Game"
+        },
+        {
+            "image": "/portfolio/weather-app.png",
+            "name": "Weather App",
+            "tools": "Using Bootstrap and JavaScript",
+            "description": "This website shows current weather info; users can see the Temperature, Humidity Info, and Wind Info of any city by searching.",
+            "url": "https://mdrayhanahmed.github.io/Weather-App/",
+            "githubUrl": "https://github.com/mdrayhanahmed/Weather-App"
+        }
+    ]
+}

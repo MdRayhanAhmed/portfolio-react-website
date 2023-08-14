@@ -1,0 +1,74 @@
+html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgb(5, 8, 40),
+    rgb(1, 4, 39)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(5, 8, 40, 0.87),
+    rgba(1, 4, 39, 0.925)
+  );
+
+  --imp-text-color: #7500fa;
+  --imp-bold-text-color: #7500fa;
+}
+.skills-page {
+  padding-left: 100px;
+  padding-right: 50px;
+  width: calc(100% - 150px);
+  position: initial;
+  height: 100%;
+  overflow: auto;
+
+  h1.page-title {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .about-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    // background-image: var(--section-background-color) !important;
+    color: white !important;
+  }
+  .project-heading {
+    text-align: center;
+    color: white !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }
+  .yellow {
+    // color: var(--imp-bold-text-color) !important;
+    color: #ffd700;
+  }
+  .tech-icons {
+    font-size: 6.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgb(89, 0, 190) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+    background-image: var(--section-background-color) !important;
+  }
+  
+  
+}
+.tech-container{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.leetcode{
+  display: flex;
+  justify-content: center;
+}
