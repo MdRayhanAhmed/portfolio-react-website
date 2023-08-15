@@ -22,7 +22,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "web_accessible_resources": [
+   "web_accessible_resources": [
     "public/portfolio/*",
     "src/assets/images/*",
     "src/assets/fonts/CoolveticaRg-Regular.woff",
