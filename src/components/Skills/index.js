@@ -30,8 +30,7 @@ const Skills = () => {
                     />
                 </h1>
                 <div>
-                <Container fluid className="about-section">
-                    <Container>
+                    <Container fluid className="about-section">
                         <h2 className="project-heading">
                             Professional <strong className="yellow">Skillset </strong>
                         </h2>
@@ -45,7 +44,6 @@ const Skills = () => {
                         <Leetcode />
                         <Github />
                     </Container>
-                </Container>
                 </div>
 
                 
