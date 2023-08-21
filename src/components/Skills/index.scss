@@ -28,7 +28,7 @@ html {
   }
   .about-section {
     position: relative !important;
-    padding-top: 150px !important;
+    // padding-top: 50px !important;
     padding-bottom: 30px !important;
     // background-image: var(--section-background-color) !important;
     color: white !important;
@@ -71,4 +71,14 @@ html {
 .leetcode{
   display: flex;
   justify-content: center;
+}
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(117, 0, 250, 1) !important;
 }
