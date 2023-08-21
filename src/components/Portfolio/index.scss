@@ -142,3 +142,11 @@
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .container.portfolio-page {
+    .image-box {
+      flex-basis: 100%; /* One image in a row */
+      max-width: 100%;
+    }
+  }
+}
