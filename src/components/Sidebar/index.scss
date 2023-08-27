@@ -126,13 +126,6 @@
         display: block;
         font-size: 15px;
         line-height: 16px;
-        color: #4d4d4e;
-      }
-
-      &:hover {
-        .anchor-icon {
-          color: #ffd700;
-        }
       }
     }
   }
@@ -141,7 +134,10 @@
 .hamburger-icon, .close-icon {
   display: none;
 }
-
+.leetcode-logo {
+  width: 15px; /* Adjust the width to your preferred size */
+  height: auto; /* Maintain aspect ratio */
+}
 
 @media screen and (max-width: 1200px) {
   .nav-bar { 
