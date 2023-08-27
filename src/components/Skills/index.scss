@@ -45,7 +45,7 @@ html {
     color: #ffd700;
   }
   .tech-icons {
-    font-size: 6.5em !important;
+    font-size: 8.5em !important;
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
@@ -72,13 +72,26 @@ html {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
+
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(117, 0, 250, 1) !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .container.skills-page {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    h1.page-title {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    // .tech-icons {
+    //   width: calc(25% - 30px); /* Distribute width for 4 items with gaps */
+    //   /* Adjust any other styles for smaller screens */
+    // }
+  }
 }
