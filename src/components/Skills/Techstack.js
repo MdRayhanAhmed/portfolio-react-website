@@ -15,29 +15,29 @@ import {
 
 const Techstack = () => {
   return (
-      <Row  className="tech-container" style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Row className="tech-container" style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col className="tech-icons">
         <SiHtml5 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiRedux />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <DiGit />
       </Col>
     </Row>
