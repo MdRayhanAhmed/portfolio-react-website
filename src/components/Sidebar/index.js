@@ -8,12 +8,6 @@ import GithubLogo from '../../assets/images/github-logo.png'
 import FacebookLogo from '../../assets/images/facebook-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faLinkedin,
-  faGithub,
-  faHackerrank,
-  faFacebook,
-} from '@fortawesome/free-brands-svg-icons'
-import {
   faHome,
   faUser,
   faGear,
