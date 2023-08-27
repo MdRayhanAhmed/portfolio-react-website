@@ -10,20 +10,20 @@ import {
 
 const Toolstack = () => {
   return (
-    <Row  className="tech-container" style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <Row className="tech-container" style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiPostman />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiVercel />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiNetlify />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col className="tech-icons">
         <SiHeroku />
       </Col>
     </Row>
