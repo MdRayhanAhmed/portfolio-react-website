@@ -81,7 +81,6 @@
   }
 }
 
-
 @media screen and (max-width: 1200px) {
   .tags,
   .home-page h1:before,
@@ -114,13 +113,16 @@
     margin: auto;
     left: 0;
   }
-
-  // .logo-container svg {
-  //   position: absolute;
-  //   top: auto;
-  //   right: auto;
-  //   bottom: auto;
-  //   left: 0;
-  //   margin: auto;
-  // }
+}
+@media screen and (max-width: 535px) {
+  .home-page {
+    h1 {
+      font-size: 45px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-page h1 {
+    font-size: 33px;
+  }
 }
