@@ -9,10 +9,18 @@
       "githubUrl": "https://github.com/MdRayhanAhmed/amazon-clone"
     },
     {
+      "image": "/portfolio/email-subscribe.png",
+      "name": "Email Subscribe",
+      "tools": "Using Tailwind CSS",
+      "description": "It's a email subscribe website.",
+      "url": "https://mdrayhanahmed.github.io/email-subscribe/",
+      "githubUrl": "https://github.com/MdRayhanAhmed/email-subscribe"
+    },
+    {
       "image": "/portfolio/pricing-cards.png",
       "name": "Pricing Cards",
       "tools": "Using Tailwind CSS",
-      "description": "It,s pricing cards website.",
+      "description": "It's a pricing cards website.",
       "url": "https://mdrayhanahmed.github.io/pricing-cards/",
       "githubUrl": "https://github.com/MdRayhanAhmed/pricing-cards"
     },
