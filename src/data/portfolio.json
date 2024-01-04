@@ -9,6 +9,22 @@
       "githubUrl": "https://github.com/MdRayhanAhmed/amazon-clone"
     },
     {
+      "image": "/portfolio/rockPaperScissors.png",
+      "name": "Rock Paper Scissors Game",
+      "tools": "Using JavaScript and CSS",
+      "description": "It's a Rock Paper Scissors Game website.",
+      "url": "https://mdrayhanahmed.github.io/Rock-Paper-Scissors-Game/",
+      "githubUrl": "https://github.com/MdRayhanAhmed/Rock-Paper-Scissors-Game"
+    },
+    {
+      "image": "/portfolio/ticTacToe.png",
+      "name": "Tic Tac Toe Game",
+      "tools": "Using JavaScript and CSS",
+      "description": "It's a Tic Tac Toe Game website.",
+      "url": "https://mdrayhanahmed.github.io/Tic-Tac-Toe/",
+      "githubUrl": "https://github.com/MdRayhanAhmed/Tic-Tac-Toe"
+    },
+    {
       "image": "/portfolio/email-subscribe.png",
       "name": "Email Subscribe",
       "tools": "Using Tailwind CSS",
