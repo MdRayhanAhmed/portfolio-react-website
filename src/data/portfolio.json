@@ -2,7 +2,7 @@
   "portfolio": [
     {
       "image": "/portfolio/properPlace.png",
-      "name": "properPlace",
+      "name": "ProperPlace",
       "tools": "Using React & SCSS",
       "description": "It is a modern real estate platform, that enables users to find and explore properties for buying or renting.",
       "url": "https://github.com/MdRayhanAhmed/proper-place",
